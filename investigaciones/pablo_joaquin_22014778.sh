@@ -25,11 +25,11 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: CASOS DE USO DE LA INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}RANSES PABLO JOAQUÍN${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}22014778${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}correo@correo.com${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
@@ -44,6 +44,7 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:
 
 echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
 cat <<EOF
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Este es un párrafo de varias líneas que amplía el Punto 1.
     Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
     exactamente donde los necesites. Al finalizar, continúa
