@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: CASOS DE USO DE LA INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN
+# ESTUDIANTE: RANSES PABLO JOAQUÍN
+# CÉDULA: 22014778
+# CORREO: correo@correo.com
 # =========================================================================
 source ../biblioteca.sh
 
