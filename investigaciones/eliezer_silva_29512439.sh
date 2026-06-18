@@ -25,40 +25,42 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: Introducción a JavaScript (interactividad: botones y eventos)${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}Eliezer Silva${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}29512439${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}silvaeliezer2321@gmail.com${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}JavaScript es el lenguaje de programación estándar de la web. Permite transformar páginas estáticas en aplicaciones interactivas mediante la manipulación del DOM, permitiendo al usuario interactuar con la interfaz en tiempo real.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. Eventos en JavaScript${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Los eventos son acciones que ocurren en el navegador, como hacer clic en un botón, 
+    mover el ratón o cargar la página. JavaScript "escucha" estos eventos para 
+    ejecutar funciones específicas y responder a la acción del usuario.
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. Interactividad con Botones${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}     Mediante el atributo 'onclick' en HTML, podemos vincular botones con funciones de JavaScript, permitiendo disparar cambios visuales, validaciones o cálculos al presionar un simple botón.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}Comprender el manejo de eventos y botones es vital para cualquier desarrollador frontend, ya que constituye el puente fundamental entre el usuario y la lógica de la aplicación web.${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
 
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE} [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 read -p ""
