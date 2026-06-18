@@ -60,6 +60,12 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al
+menú...]${COLOR_RESET}"
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_RESET}"
 
 read -p ""
