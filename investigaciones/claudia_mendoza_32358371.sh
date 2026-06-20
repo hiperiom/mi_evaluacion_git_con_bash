@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Estructura de control (Bucles: for, while y do-while)
+# ESTUDIANTE: Claudia Mendoza
+# CÉDULA: 32.358.371
+# CORREO: mclaudiaisabel2@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
