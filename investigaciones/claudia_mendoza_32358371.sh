@@ -50,6 +50,9 @@ echo ""
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}✅ CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}El dominio de estas estructuras es vital para optimizar scripts. Elegir el bucle correcto (for, while o do-while) depende directamente de si conocemos de antemano el número de iteraciones o si la ejecución depende de una condición dinámica.${COLOR_RESET}"
 echo ""
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo -e "${COLOR_CYAN}===============================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}===============================================================${COLOR_RESET}"
 
 read -p ""
