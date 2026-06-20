@@ -35,30 +35,21 @@ echo ""
 
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
-echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}🚀 INTRODUCCIÓN:${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}Las estructuras de control de flujo por repetición, mejor conocidas como bucles o ciclos, son herramientas fundamentales en programación. Te permiten ejecutar un bloque de código varias veces consecutivas sin necesidad de escribirlo una y otra vez.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
-# Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
-
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+1. El Bucle while (Mientras): Evalúa una condición antes de ejecutar. Se usa cuando no sabes exactamente cuántas veces se va a repetir el ciclo, ya que depende de una condición dinámica.
+2. El Bucle do-while (Hacer-Mientras): Evalúa la condición al final, garantizando que el código se ejecute al menos una vez. Ideal para menús de opciones.
+3. El Bucle for (Para): Es el más estructurado. Úsalo cuando conozcas el número exacto de iteraciones (inicialización, condición e incremento).
 EOF
-echo -e "${COLOR_RESET}"
-
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
 echo ""
 
-echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}✅ CONCLUSIÓN:${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}El dominio de estas estructuras es vital para optimizar scripts. Elegir el bucle correcto (for, while o do-while) depende directamente de si conocemos de antemano el número de iteraciones o si la ejecución depende de una condición dinámica.${COLOR_RESET}"
 echo ""
-
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
 
 read -p ""
