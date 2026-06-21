@@ -4,7 +4,6 @@
 # ESTUDIANTE: Irianny Manotas
 # CÉDULA: 27.903.072
 # CORREO: manotasirianny@gmail.com 
-
 # =========================================================================
 source ../biblioteca.sh
 
@@ -68,8 +67,8 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La combinación de entrevistas y observación garantiza una comprensión más precisa y completa de los requerimientos del negocio, minimizando errores en etapas futuras del desarrollo.${COLOR_RESET}"
 echo ""
 
-echo -e "${COLOR_CYAN}===============================================================${COLOR_RESET}"
+echo -e"${COLOR_CYAN}========================================================================${COLOR_R
 echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
-echo -e "${COLOR_CYAN}===============================================================${COLOR_RESET}"
+echo -e"${COLOR_CYAN}========================================================================${COLOR_R
 
 read -p ""
