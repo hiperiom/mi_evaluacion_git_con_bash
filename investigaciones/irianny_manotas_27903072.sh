@@ -67,6 +67,8 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La combinación de entrevistas y observación garantiza una comprensión más precisa y completa de los requerimientos del negocio, minimizando errores en etapas futuras del desarrollo.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+echo -e"${COLOR_CYAN}========================================================================${COLOR_R
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e"${COLOR_CYAN}========================================================================${COLOR_R
 
 read -p ""
