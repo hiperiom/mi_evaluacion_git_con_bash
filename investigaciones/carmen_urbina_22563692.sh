@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: [Pseudocódigo ]
+# ESTUDIANTE: [Carmen Urbina]
+# CÉDULA: [22563692]
+# CORREO: [mariaurbinaubv@gmail.com]
 # =========================================================================
 source ../biblioteca.sh
 
