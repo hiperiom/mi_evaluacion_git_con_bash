@@ -65,6 +65,13 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La elección del IDE adecuado es fundamental para optimizar el flujo de trabajo y la calidad del desarrollo de software.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al
+menú...]${COLOR_RESET}"
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
 
 read -p ""
