@@ -69,6 +69,14 @@ echo -e "${COLOR_BLANCO}[el pseudocódigo es una herramienta fundamental en el d
   lenguaje de programación real]${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al
+menú...]${COLOR_RESET}"
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
+
 
 read -p ""
