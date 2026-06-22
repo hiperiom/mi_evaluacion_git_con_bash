@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Entornos de desarrollo (IDEs como VS code, PyCharm o eclipse)
+# ESTUDIANTE: Greivert Martinez
+# CEDULA: 31.249.736
+# CORREO: greivert02@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
@@ -25,11 +25,11 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO} TEMA: Entornos de desarrollo (IDEs como VS code, PyCharm o eclipse)${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}Greivert Martinez${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}31.249.736${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}greivert02@gmail.com ${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
