@@ -25,38 +25,48 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [Pseudocódigo]${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[Carmen Urbina]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[22563692]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[mariaurbinaubv@gmail.com]${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}[El pseudocódigo es una descripción de alto nivel de un algoritmo que utiliza una mezcla de lenguaje natural y reglas básicas de programación]${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. [Un pseudocódigo no tiene una sintaxis estricta, pero generalmente sigue esta estructura:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Inicio: Indica dónde comienza el algoritmo.
+    Variables: Espacios para almacenar datos (números, texto, etc.).
+    Entrada y Salida: Instrucciones para leer datos ingresados por el usuario o mostrar resultados.
+    Condicionales: Decisiones lógicas (Si / Sino).
+    Ciclos / Bucles: Repetición de pasos mientras se cumpla una condición.
+    Fin: Indica dónde termina el algoritmo.
+]
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. [Ventajas de su uso: Es muy fácil de aprender y modificar, permite que cualquier persona
+ (sepa programar o no) entienda la lógica del algoritmo, y reduce drásticamente la cantidad 
+ de errores antes de escribir el código real.]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  3. [Buenas prácticas: Cada instrucción debe ser clara y precisa,
+ se debe escribir una sola acción por línea, y se recomienda usar sangrías (indentación) para que el flujo del
+  programa sea fácil de leer a simple vista]${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}[el pseudocódigo es una herramienta fundamental en el desarrollo de software. 
+ Nos permite concentrarnos exclusivamente en resolver la lógica del problema de una forma sencilla y en
+ nuestro propio idioma, sirviendo como el puente perfecto antes de traducir nuestras ideas a cualquier
+  lenguaje de programación real]${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
