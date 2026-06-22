@@ -36,27 +36,33 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}Los IDEs (Entornos de Desarrollo Integrado) son aplicaciones que combinan herramientas esenciales para el desarrollo de software en una sola interfaz.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. Funcionalidades Integradas${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Los IDEs agrupan herramientas fundamentales como editores de código fuente, herramientas de automatización de compilación y depuradores en una interfaz unificada. Esto permite que el programador realice múltiples tareas sin necesidad de cambiar constantemente de aplicación.
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. Aumento de la Productividad${COLOR_RESET}"
+cat <<EOF
+    Los IDEs agrupan herramientas fundamentales como editores de código fuente, herramientas de automatización de compilación y depuradores en una interfaz unificada. Esto permite que el programador realice múltiples tareas sin necesidad de cambiar constantemente de aplicación.
+EOF
+echo -e "${COLOR_RESET}"
+
+echo -e "${COLOR_BLANCO}  3. Gestión de Proyectos${COLOR_RESET}"
+cat <<EOF
+   Facilitan la organización de archivos, la navegación entre estructuras complejas y la integración directa con sistemas de control de versiones como Git. Esto es esencial para mantener la consistencia y colaborar eficazmente en entornos profesionales.
+EOF
+echo -e "${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}La elección del IDE adecuado es fundamental para optimizar el flujo de trabajo y la calidad del desarrollo de software.${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
