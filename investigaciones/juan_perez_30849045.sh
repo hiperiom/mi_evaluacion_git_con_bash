@@ -36,27 +36,32 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}La lógica proposicional y el álgebra booleana son los fundamentos matemáticos del razonamiento lógico y el diseño de circuitos digitales. La lógica proposicional estudia las proposiciones y su relación mediante conectivos lógicos (AND, OR, NOT, implicación, etc.), mientras que el álgebra booleana es su representación algebraica, esencial para la informática.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. Proposiciones y conectivos lógicos:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    - Una proposición es una afirmación que puede ser verdadera o falsa.
+    - Los conectivos principales son: ¬ (negación), ∧ (conjunción), ∨ (disyunción), → (implicación), ↔ (bicondicional).
+    - Las tablas de verdad permiten evaluar la validez de expresiones lógicas.
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. Álgebra booleana:${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Desarrollada por George Boole, permite representar la lógica mediante operaciones algebraicas.${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Operadores básicos: AND (·), OR (+), NOT (¬).${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Leyes fundamentales: conmutativa, asociativa, distributiva, identidad, complemento, absorción.${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  3. Aplicaciones en informática:${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Diseño de circuitos electrónicos y compuertas lógicas.${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Estructuras de control en programación (condiciones, bucles).${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}    - Optimización de consultas en bases de datos y motores de búsqueda.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}La lógica proposicional y el álgebra booleana son la base del razonamiento computacional. Su comprensión es esencial para la programación, la inteligencia artificial y el diseño de sistemas digitales.${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
