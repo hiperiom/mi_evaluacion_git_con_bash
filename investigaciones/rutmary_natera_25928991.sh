@@ -60,6 +60,9 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}En conclusión, los algoritmos son el pilar esencial del software y del pensamiento computacional moderno. Su diseño estricto elimina la ambigüedad, garantizando resultados exactos y repetibles ante cualquier problema planteado. Por su parte, los diagramas de flujo consolidan esta lógica abstracta en un formato visual universal y accesible para cualquier persona. Dominar tanto los conceptos teóricos como la representación gráfica de los algoritmos permite descomponer problemas complejos en soluciones simples, eficientes y transferibles a cualquier lenguaje de programación.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 
 read -p ""
