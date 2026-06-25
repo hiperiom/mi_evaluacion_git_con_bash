@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Lógica proposicional y álgebra booleana (bases del razonamiento)
+# ESTUDIANTE: Juan Perez
+# CÉDULA: 30849045
+# CORREO: plax2052@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
