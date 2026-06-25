@@ -64,6 +64,7 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La lógica proposicional y el álgebra booleana son la base del razonamiento computacional. Su comprensión es esencial para la programación, la inteligencia artificial y el diseño de sistemas digitales.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
-
-read -p ""
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo -e  "${COLOR_CYAN}==============================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE} [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e  "${COLOR_CYAN}==============================================================${COLOR_RESET}"
