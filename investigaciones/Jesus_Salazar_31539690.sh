@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA:  Gestores de Desarrollo de Software (Trello o tableros Kanban para organizar tareas en equipo)
+# ESTUDIANTE: Jesús Salazar
+# CÉDULA: 31539690
+# CORREO: jesus.salazar.3b@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
