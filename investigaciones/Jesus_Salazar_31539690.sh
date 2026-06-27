@@ -57,6 +57,8 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La implementación de gestores visuales como Trello, basados en la metodología Kanban, transforma positivamente la gestión de proyectos de software. Hacen que el trabajo sea más ágil, transparente y organizado. Facilitan la priorización de tareas, reducen la sobrecarga de los equipos al limitar el trabajo en progreso y fomentan una cultura de mejora continua. En un entorno de desarrollo donde los requisitos cambian constantemente, estas herramientas son indispensables para mantener la productividad, la adaptabilidad y la comunicación efectiva entre todos los miembros del equipo.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
-
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo -e "${COLOR_CYAN}===================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE} [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}===================================================${COLOR_RESET}"
 read -p ""
