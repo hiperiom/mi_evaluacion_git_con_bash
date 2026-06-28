@@ -1,10 +1,10 @@
 #!/bin/bash
-# =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
-# =========================================================================
+# ===========================================
+# TEMA: Ofimatica Aplicada
+# ESTUDIANTE: Luis A. Flores. A
+# CEDULA: 25.624.711
+# CORREO: nano007flores@gmail.com
+#===========================================
 source ../biblioteca.sh
 
 # Define variables ANSI para colores en la terminal:
@@ -25,11 +25,11 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: Ofimatica Aplicada${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}Luis A. Flores. A${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}25.624.711${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}nano007flores@gmail.com${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
