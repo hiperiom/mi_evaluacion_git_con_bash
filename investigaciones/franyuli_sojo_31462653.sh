@@ -36,27 +36,33 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}La computación es la ciencia que estudia el procesamiento automático de la información mediante dispositivos electrónicos. Su evolución ha transformado radicalmente la sociedad moderna, permitiendo avances tecnológicos en todas las áreas del conocimiento humano.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. Antecedentes y Orígenes:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Antes de los dispositivos electrónicos, surgieron herramientas como el ábaco y la Máquina Analítica de Babbage, que sentaron las bases lógicas para los cálculos complejos.
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. Las Generaciones de Computadoras:${COLOR_RESET}"
+cat <<EOF
+    La historia se divide en cinco generaciones marcadas por la tecnología de sus componentes: desde los tubos de vacío y transistores hasta los circuitos integrados, microprocesadores y, actualmente, la inteligencia artificial.
+EOF
+echo -e "${COLOR_RESET}"
+
+echo -e "${COLOR_BLANCO}  3. Impacto Tecnológico:${COLOR_RESET}"
+cat <<EOF
+    La miniaturización de componentes y el desarrollo de lenguajes de programación permitieron que las computadoras pasaran de ocupar habitaciones enteras a ser dispositivos personales altamente potentes.
+EOF
+echo -e "${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}La historia de la computación es una carrera constante hacia la eficiencia y la velocidad. Comprender sus generaciones nos permite apreciar cómo la integración de hardware y software ha creado el entorno digital que definirá el futuro de la humanidad.${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
