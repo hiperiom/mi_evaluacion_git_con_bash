@@ -65,6 +65,8 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La historia de la computación es una carrera constante hacia la eficiencia y la velocidad. Comprender sus generaciones nos permite apreciar cómo la integración de hardware y software ha creado el entorno digital que definirá el futuro de la humanidad.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+echo -e "${COLOR_CYAN}====================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}====================================================================${COLOR_RESET}"
 
 read -p ""
