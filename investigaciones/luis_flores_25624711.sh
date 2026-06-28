@@ -65,6 +65,7 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}La ofimática aplicada es fundamental en la actualidad, ya que no solo facilita la gestión diaria de información, sino que transforma la manera en que trabajamos. Al integrar herramientas para la creación, análisis y comunicación de datos, las organizaciones logran niveles superiores de eficiencia, precisión y colaboración, asegurando un entorno de trabajo más productivo y adaptable a las necesidades tecnológicas del presente.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
-
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 read -p ""
