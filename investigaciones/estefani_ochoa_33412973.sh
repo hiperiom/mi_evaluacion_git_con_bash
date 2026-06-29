@@ -62,6 +62,14 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO} En conclusión, los requerimientos no funcionales representan el verdadero límite entre un software que solo funciona en teoría y un producto exitoso en el mundo real. De nada sirve que el sistema cumpla con todas sus funciones si es lento, inseguro o inestable; por lo tanto, el éxito de un proyecto depende de equilibrar las características del software con los estándares de calidad necesarios para que sea confiable y escalable.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al script principal
+echo
+-e
+"${COLOR_CYAN}========================================================================${COLOR_R ESET}"
+echo-e"${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo
+-e
+"${COLOR_CYAN}========================================================================${COLOR_R ESET}"
 
 read -p ""
+
