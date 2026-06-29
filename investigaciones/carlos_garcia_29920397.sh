@@ -36,27 +36,26 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO} Un algoritmo es una secuencia lógica, finita y precisa de pasos o instrucciones que permiten solucionar un problema o ejecutar una tarea específica. Son la base fundamental sobre la que se construye todo el software actual.${COLOR_RESET}"
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. Características principales:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Los algoritmos deben ser precisos (definir el orden de cada paso), definidos (si se sigue dos veces con los mismos datos, el resultado debe ser igual) y finitos (deben tener un punto de inicio y de final).
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. Representación mediante Diagramas de Flujo:${COLOR_RESET}"
+cat <<EOF
+     Los diagramas de flujo son representaciones gráficas de los algoritmos que utilizan símbolos estandarizados (como rectángulos para procesos, rombos para decisiones y flechas para el flujo) para visualizar la lógica de un programa antes de su implementación en código.
+EOF
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}Dominar los algoritmos y su representación gráfica es esencial para cualquier desarrollador, ya que permiten estructurar la lógica computacional de manera eficiente antes de enfrentar la complejidad de cualquier lenguaje de programación.${COLOR_RESET}"
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
