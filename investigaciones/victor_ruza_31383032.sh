@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Etica y profesionalismo de informatica
+# ESTUDIANTE: Victor Ruza
+# CÉDULA: 31383032
+# CORREO: victorruza35@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
@@ -25,11 +25,11 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: Etica y profesionalismo de informatica  [TEMA]${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE:Victor Ruza ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:31383032        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:victorruza35@gmail.com     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
