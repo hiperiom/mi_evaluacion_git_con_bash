@@ -35,29 +35,20 @@ echo ""
 
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
-echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN"
+echo -e "${COLOR_BLANCO}La ética informática regula nuestro comportamiento profesional garantizando responsabilidad."
 echo ""
-
-echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
-# Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
-
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
-cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
-EOF
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS IMPORTANTES"
+echo -e "${COLOR_BLANCO}- Privacidad: Proteger estrictamente los datos sensibles de los usuarios."
+echo -e "${COLOR_BLANCO}- Integridad: Desarrollar software robusto actuando con honestidad y evitando el plagio."
+echo -e "${COLOR_BLANCO}- Responsabilidad: Fomentar soluciones que tengan un impacto positivo en la sociedad."
+echo ""
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN"
+echo -e "${COLOR_BLANCO}El buen informático debe equilibrar siempre su conocimiento técnico con el bienestar social."
 echo -e "${COLOR_RESET}"
-
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
 echo ""
 
-echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
-echo ""
+
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
 
