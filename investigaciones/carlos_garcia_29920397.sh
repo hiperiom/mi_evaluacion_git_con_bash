@@ -58,6 +58,7 @@ echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
 echo -e "${COLOR_BLANCO}Dominar los algoritmos y su representación gráfica es esencial para cualquier desarrollador, ya que permiten estructurar la lógica computacional de manera eficiente antes de enfrentar la complejidad de cualquier lenguaje de programación.${COLOR_RESET}"
 echo ""
 
-# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
-
+echo -e "${COLOR_CYAN}====================================================================${COLOR_RESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al menú...]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}====================================================================${COLOR_RESET}"
 read -p ""
