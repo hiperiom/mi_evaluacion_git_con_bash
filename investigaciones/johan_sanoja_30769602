@@ -36,27 +36,52 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "Los requerimientos funcionales describen las acciones, comportamientos y"
+echo -e "funcionalidades que un sistema debe ser capaz de realizar. Responden a la"
+echo -e "pregunta: ${COLOR_YELLOW}¿qué debe hacer?${COLOR_RESET}"
+echo -e "Por ejemplo, 'calcular el total de una compra' es un requerimiento funcional"
+echo -e "de un sistema de ventas. Estos requisitos se definen en la etapa de análisis"
+echo -e "y son la base para el diseño y la programación."
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. CARACTERÍSTICAS DE LOS REQUERIMIENTOS FUNCIONALES:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    - Describen una interacción entre el sistema y el usuario o entre sistemas.
+    - Son específicos y medibles (ej: "el sistema debe permitir agregar productos al carrito").
+    - Se expresan en lenguaje natural o con casos de uso.
+    - Son obligatorios para el funcionamiento del sistema (no opcionales).
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  2. EJEMPLOS CONCRETOS:${COLOR_RESET}"
+cat <<EOF
+    En un sistema de ventas online:
+      - "El sistema debe calcular el subtotal, impuestos y total de la compra."
+      - "El usuario debe poder iniciar sesión con correo y contraseña."
+      - "El sistema debe enviar un correo de confirmación al completar un pedido."
+
+    En un sistema bancario:
+      - "El sistema debe permitir transferencias entre cuentas propias."
+      - "Debe mostrar el saldo actual después de cada movimiento."
+EOF
+echo -e "${COLOR_BLANCO}  3. DIFERENCIA CON REQUERIMIENTOS NO FUNCIONALES:${COLOR_RESET}"
+cat <<EOF
+    Los no funcionales describen atributos de calidad (rendimiento, seguridad, usabilidad),
+    mientras que los funcionales describen qué hace el sistema. Por ejemplo:
+      - Funcional: "El sistema debe generar un reporte de ventas".
+      - No funcional: "El reporte debe generarse en menos de 2 segundos".
+EOF
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "Los requerimientos funcionales son el corazón de cualquier sistema informático."
+echo -e "Definir correctamente 'qué debe hacer' el sistema evita malentendidos y retrasos."
+echo -e "Un buen análisis de requerimientos funcionales asegura que el producto final"
+echo -e "cumpla con las expectativas del usuario y los objetivos del negocio."
+echo -e "Su correcta documentación es clave para el éxito del proyecto."
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
