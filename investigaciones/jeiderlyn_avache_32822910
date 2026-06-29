@@ -36,27 +36,97 @@ echo ""
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "Las metodologías de desarrollo de software son marcos de trabajo que guían"
+echo -e "el proceso de creación de un sistema. Dos de los enfoques más conocidos"
+echo -e "son la metodología en Cascada (tradicional) y la metodología Ágil."
+echo -e "Ambas tienen diferencias clave en cuanto a planificación, flexibilidad"
+echo -e "y entrega de valor al cliente."
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_YELLOW}  1. METODOLOGÍA EN CASCADA (WATERFALL):${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    Es un enfoque lineal y secuencial. Cada fase debe completarse antes de pasar a la siguiente.
+    Sus etapas típicas son:
+      - Requisitos
+      - Diseño
+      - Implementación
+      - Pruebas
+      - Despliegue
+      - Mantenimiento
+
+    Características:
+      - Planificación rigurosa desde el inicio.
+      - Documentación extensa.
+      - Poco flexible ante cambios (los requisitos se fijan al principio).
+      - Ideal para proyectos con requisitos estables y bien definidos (ej: sistemas bancarios, control de tráfico aéreo).
 EOF
+echo ""
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_YELLOW}  2. METODOLOGÍA ÁGIL:${COLOR_RESET}"
+cat <<EOF
+    Es un enfoque iterativo e incremental. El desarrollo se organiza en ciclos cortos
+    llamados sprints (generalmente de 2 a 4 semanas).
+
+    Principios clave (Manifiesto Ágil):
+      - Individuos e interacciones por encima de procesos y herramientas.
+      - Software funcionando por encima de documentación exhaustiva.
+      - Colaboración con el cliente durante todo el proyecto.
+      - Respuesta al cambio por encima de seguir un plan fijo.
+
+    Características:
+      - Adaptabilidad a cambios (requisitos pueden evolucionar).
+      - Entregas tempranas y frecuentes (versiones funcionales).
+      - Equipos autoorganizados y multidisciplinarios.
+      - Ideal para proyectos con requisitos cambiantes o inciertos (ej: startups, productos digitales).
+EOF
+echo ""
+
+echo -e "${COLOR_YELLOW}  3. DIFERENCIAS CLAVE:${COLOR_RESET}"
+cat <<EOF
+    - Planificación: En Cascada es rígida y se define al inicio del proyecto.
+      En Ágil es adaptativa y se ajusta durante el desarrollo.
+
+    - Gestión de cambios: En Cascada es difícil aceptar cambios una vez que se
+      ha avanzado. En Ágil los cambios se integran fácilmente en cada sprint.
+
+    - Entrega del producto: En Cascada se entrega una única versión al final.
+      En Ágil se hacen entregas parciales y funcionales en cada iteración.
+
+    - Documentación: En Cascada es muy extensa y detallada desde el principio.
+      En Ágil es mínima, solo la necesaria para el funcionamiento.
+
+    - Participación del cliente: En Cascada participa al inicio (definición de
+      requisitos). En Ágil participa de forma constante durante todo el proyecto.
+
+    - Pruebas: En Cascada se realizan al final del proceso. En Ágil se ejecutan
+      de forma continua a lo largo del desarrollo.
+
+    - Riesgo: En Cascada es mayor, porque los problemas se detectan tarde.
+      En Ágil es menor, porque se identifican y corrigen tempranamente.
+EOF
+echo ""
+
+echo -e "${COLOR_YELLOW}  4. ¿CUÁNDO USAR CADA UNA?${COLOR_RESET}"
+cat <<EOF
+    - Cascada es preferible cuando los requisitos son claros, estables y no van a cambiar
+      durante el desarrollo. Por ejemplo, proyectos gubernamentales o sistemas críticos.
+
+    - Ágil es más adecuado para entornos dinámicos, donde el usuario final o el mercado
+      pueden cambiar de opinión. Es común en desarrollo de aplicaciones web, móviles y
+      productos de consumo.
+EOF
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "No existe una metodología 'mejor' que otra; la elección depende del contexto"
+echo -e "y las necesidades del proyecto. ${COLOR_YELLOW}Cascada${COLOR_RESET} aporta control y orden en"
+echo -e "entornos estables, mientras que ${COLOR_YELLOW}Ágil${COLOR_RESET} ofrece flexibilidad y rapidez"
+echo -e "en escenarios cambiantes. Conocer ambas permite seleccionar la más adecuada"
+echo -e "para cada situación."
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
