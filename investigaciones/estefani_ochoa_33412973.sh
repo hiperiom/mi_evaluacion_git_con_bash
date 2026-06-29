@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Mi Evaluación usando git y bash
+# ESTUDIANTE: Estefani Ochoa
+# CÉDULA: 33412973
+# CORREO: estefaniochoa33@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
