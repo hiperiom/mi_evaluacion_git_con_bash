@@ -1,9 +1,9 @@
 #!/bin/bash
 # =========================================================================
-# TEMA: [ESCRIBE AQUÍ EL TÍTULO DE TU INVESTIGACIÓN]
-# ESTUDIANTE: [Tu Nombre y Apellido]
-# CÉDULA: [Tu Cédula de Identidad]
-# CORREO: [Tu Correo en Classroom]
+# TEMA: Metodologías de desarrollo (Cascada vs Ágil – diferencias clave)
+# ESTUDIANTE: Jeiderlyn Avache
+# CÉDULA: 32822910
+# CORREO: jeiderlynavache910@gmail.com
 # =========================================================================
 source ../biblioteca.sh
 
