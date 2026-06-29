@@ -1,0 +1,143 @@
+#!/bin/bash
+# =========================================================================
+# TEMA: Metodologías de desarrollo (Cascada vs Ágil – diferencias clave)
+# ESTUDIANTE: Jeiderlyn Avache
+# CÉDULA: 32822910
+# CORREO: jeiderlynavache910@gmail.com
+# =========================================================================
+source ../biblioteca.sh
+
+# Define variables ANSI para colores en la terminal:
+COLOR_RESET="\e[0m"
+COLOR_RED="\e[31m"
+COLOR_YELLOW="\e[1;33m"
+COLOR_BLUE="\e[34m"
+COLOR_WHITE_BOLD="\e[1;37m"
+COLOR_GREEN="\e[1;32m"
+COLOR_CYAN="\e[1;36m"
+COLOR_NEGRITA="\e[1m"
+COLOR_AMARILLO="\e[33m"
+COLOR_VERDE="\e[32m"
+COLOR_BLANCO="\e[37m"
+COLOR_MAGENTA="\e[35m"
+
+# Opcional: limpia la pantalla para una presentación limpia del tema
+clear
+
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
+echo ""
+
+# Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
+
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
+echo -e "Las metodologías de desarrollo de software son marcos de trabajo que guían"
+echo -e "el proceso de creación de un sistema. Dos de los enfoques más conocidos"
+echo -e "son la metodología en Cascada (tradicional) y la metodología Ágil."
+echo -e "Ambas tienen diferencias clave en cuanto a planificación, flexibilidad"
+echo -e "y entrega de valor al cliente."
+echo ""
+
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
+# Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
+
+echo -e "${COLOR_YELLOW}  1. METODOLOGÍA EN CASCADA (WATERFALL):${COLOR_RESET}"
+cat <<EOF
+    Es un enfoque lineal y secuencial. Cada fase debe completarse antes de pasar a la siguiente.
+    Sus etapas típicas son:
+      - Requisitos
+      - Diseño
+      - Implementación
+      - Pruebas
+      - Despliegue
+      - Mantenimiento
+
+    Características:
+      - Planificación rigurosa desde el inicio.
+      - Documentación extensa.
+      - Poco flexible ante cambios (los requisitos se fijan al principio).
+      - Ideal para proyectos con requisitos estables y bien definidos (ej: sistemas bancarios, control de tráfico aéreo).
+EOF
+echo ""
+echo -e "${COLOR_RESET}"
+
+echo -e "${COLOR_YELLOW}  2. METODOLOGÍA ÁGIL:${COLOR_RESET}"
+cat <<EOF
+    Es un enfoque iterativo e incremental. El desarrollo se organiza en ciclos cortos
+    llamados sprints (generalmente de 2 a 4 semanas).
+
+    Principios clave (Manifiesto Ágil):
+      - Individuos e interacciones por encima de procesos y herramientas.
+      - Software funcionando por encima de documentación exhaustiva.
+      - Colaboración con el cliente durante todo el proyecto.
+      - Respuesta al cambio por encima de seguir un plan fijo.
+
+    Características:
+      - Adaptabilidad a cambios (requisitos pueden evolucionar).
+      - Entregas tempranas y frecuentes (versiones funcionales).
+      - Equipos autoorganizados y multidisciplinarios.
+      - Ideal para proyectos con requisitos cambiantes o inciertos (ej: startups, productos digitales).
+EOF
+echo ""
+
+echo -e "${COLOR_YELLOW}  3. DIFERENCIAS CLAVE:${COLOR_RESET}"
+cat <<EOF
+    - Planificación: En Cascada es rígida y se define al inicio del proyecto.
+      En Ágil es adaptativa y se ajusta durante el desarrollo.
+
+    - Gestión de cambios: En Cascada es difícil aceptar cambios una vez que se
+      ha avanzado. En Ágil los cambios se integran fácilmente en cada sprint.
+
+    - Entrega del producto: En Cascada se entrega una única versión al final.
+      En Ágil se hacen entregas parciales y funcionales en cada iteración.
+
+    - Documentación: En Cascada es muy extensa y detallada desde el principio.
+      En Ágil es mínima, solo la necesaria para el funcionamiento.
+
+    - Participación del cliente: En Cascada participa al inicio (definición de
+      requisitos). En Ágil participa de forma constante durante todo el proyecto.
+
+    - Pruebas: En Cascada se realizan al final del proceso. En Ágil se ejecutan
+      de forma continua a lo largo del desarrollo.
+
+    - Riesgo: En Cascada es mayor, porque los problemas se detectan tarde.
+      En Ágil es menor, porque se identifican y corrigen tempranamente.
+EOF
+echo ""
+
+echo -e "${COLOR_YELLOW}  4. ¿CUÁNDO USAR CADA UNA?${COLOR_RESET}"
+cat <<EOF
+    - Cascada es preferible cuando los requisitos son claros, estables y no van a cambiar
+      durante el desarrollo. Por ejemplo, proyectos gubernamentales o sistemas críticos.
+
+    - Ágil es más adecuado para entornos dinámicos, donde el usuario final o el mercado
+      pueden cambiar de opinión. Es común en desarrollo de aplicaciones web, móviles y
+      productos de consumo.
+EOF
+echo ""
+
+echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
+echo -e "No existe una metodología 'mejor' que otra; la elección depende del contexto"
+echo -e "y las necesidades del proyecto. ${COLOR_YELLOW}Cascada${COLOR_RESET} aporta control y orden en"
+echo -e "entornos estables, mientras que ${COLOR_YELLOW}Ágil${COLOR_RESET} ofrece flexibilidad y rapidez"
+echo -e "en escenarios cambiantes. Conocer ambas permite seleccionar la más adecuada"
+echo -e "para cada situación."
+echo ""
+
+# AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
+# Pausa controlada: espera a que el usuario presione Enter antes de devolver el control al
+script principal
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
+echo -e "${COLOR_VERDE}✅ [Fin del documento de estudio. Presione Enter para regresar al
+menú...]${COLOR_RESET}"
+echo -e
+"${COLOR_CYAN}========================================================================${COLOR_R
+ESET}"
+read -p ""
