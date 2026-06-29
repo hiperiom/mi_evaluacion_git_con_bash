@@ -25,38 +25,121 @@ COLOR_MAGENTA="\e[35m"
 clear
 
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: [TEMA]${COLOR_RESET}"
+echo -e "${COLOR_NEGRITA}${COLOR_AMARILLO}  TEMA: Estructuras de control${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}[ESTUDIANTE]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}[CÉDULA]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}[CORREO Classroom]${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  ESTUDIANTE: ${COLOR_VERDE}Luis Rubio${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  C.I:        ${COLOR_VERDE}32104668${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  CORREO:     ${COLOR_VERDE}lr725932@gmail.com${COLOR_RESET}"
 echo -e "${COLOR_CYAN}========================================================================${COLOR_RESET}"
 echo ""
 
 # Puedes usar múltiples comandos 'echo -e' para mantener el formato y los colores.
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 INTRODUCCIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Escribe aquí la introducción a tu investigación...]${COLOR_RESET}"
+echo -e "Las estructuras de control condicionales permiten tomar decisiones en un script"
+echo -e "basadas en condiciones lógicas. En Bash, las principales son:"
+echo -e "${COLOR_YELLOW}if, elif, else${COLOR_RESET} y ${COLOR_YELLOW}case${COLOR_RESET}."
+echo -e "Estas estructuras son fundamentales para crear scripts inteligentes que respondan"
+echo -e "a diferentes situaciones y entradas del usuario."
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 PUNTOS CLAVE DE LA INVESTIGACIÓN:${COLOR_RESET}"
 # Ejemplo: párrafo de varias líneas para el punto 1 usando un here-doc
 
-echo -e "${COLOR_BLANCO}  1. [Punto importante 1 sobre el tema...${COLOR_RESET}"
+echo -e "${COLOR_BLANCO}  1. ESTRUCTURA IF-ELSE:${COLOR_RESET}"
 cat <<EOF
-    Este es un párrafo de varias líneas que amplía el Punto 1.
-    Puedes usarlo y reutilizarlo donde necesites para textos largos de tu investigación, con saltos de línea
-    exactamente donde los necesites. Al finalizar, continúa
-    con los siguientes puntos del esquema.]
+    La estructura if permite ejecutar un bloque de código si se cumple una condición.
+
+    Sintaxis:
+      if [ condición ]; then
+        # código si se cumple
+      else
+        # código si no se cumple
+      fi
+
+    Ejemplo:
+      if [ \$edad -ge 18 ]; then
+        echo 'Eres mayor de edad'
+      else
+        echo 'Eres menor de edad'
+      fi
 EOF
 echo -e "${COLOR_RESET}"
 
-echo -e "${COLOR_BLANCO}  2. [Punto importante 2 sobre el tema...]${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}  3. [Punto importante N sobre el tema...]${COLOR_RESET}"
+echo -e "${COLOR_YELLOW}  2. ESTRUCTURA ELIF (ELSE IF):${COLOR_RESET}"
+cat <<EOF
+    Permite evaluar múltiples condiciones en secuencia.
+
+    Sintaxis:
+      if [ condición1 ]; then
+        # código para condición1
+      elif [ condición2 ]; then
+        # código para condición2
+      else
+        # código si ninguna se cumple
+      fi
+
+    Ejemplo:
+      if [ \$nota -ge 90 ]; then
+        echo 'Excelente'
+      elif [ \$nota -ge 70 ]; then
+        echo 'Aprobado'
+      else
+        echo 'Reprobado'
+      fi
+EOF
+echo ""
+
+echo -e "${COLOR_BLANCO}  3. ESTRUCTURA CASE (SWITCH):${COLOR_RESET}"
+cat <<EOF
+    Case es ideal para comparar una variable contra múltiples valores posibles.
+
+    Sintaxis:
+      case \$variable in
+        valor1)
+          # código para valor1
+          ;;
+        valor2)
+          # código para valor2
+          ;;
+        *)
+          # código para cualquier otro valor
+          ;;
+      esac
+
+    Ejemplo:
+      case \$dia in
+        lunes)
+          echo 'Inicio de semana'
+          ;;
+        viernes)
+          echo 'Fin de semana cercano'
+          ;;
+        *)
+          echo 'Día normal'
+          ;;
+      esac
+EOF
+echo ""
+
+echo -e "${COLOR_YELLOW}  4. OPERADORES COMUNES EN CONDICIONALES:${COLOR_RESET}"
+cat <<EOF
+    -eq : igual (numérico)        -ne : no igual
+    -gt : mayor que                -lt : menor que
+    -ge : mayor o igual            -le : menor o igual
+    =   : igual (cadenas)          !=  : no igual (cadenas)
+    -z  : cadena vacía            -n  : cadena no vacía
+    -f  : existe archivo          -d  : existe directorio
+    -r  : archivo legible         -w  : archivo escribible
+EOF
 echo ""
 
 echo -e "${COLOR_NEGRITA}${COLOR_MAGENTA}📌 CONCLUSIÓN:${COLOR_RESET}"
-echo -e "${COLOR_BLANCO}[Conclusión o resumen final de tu investigación...]${COLOR_RESET}"
+echo -e "Las estructuras condicionales son la base de la lógica en programación."
+echo -e "Dominar ${COLOR_YELLOW}if, elif${COLOR_RESET} y ${COLOR_YELLOW}case${COLOR_RESET} en Bash permite crear scripts robustos que se"
+echo -e "adapten a diferentes contextos y tomen decisiones automatizadas."
+echo -e "La práctica constante es clave para comprender su uso correcto y"
+echo -e "evitar errores comunes como el uso incorrecto de operadores."
 echo ""
 
 # AQUÍ DEBE IR LAS INSTRUCCIONES PARA LA PAUSA CONTROLADA ANTES DE REGRESAR AL MENÚ PRINCIPAL
